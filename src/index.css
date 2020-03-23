@@ -1,0 +1,9 @@
+@import './fonts/IranYekan/YekanBakh.css';
+body {
+  margin: 0;
+  direction : rtl;
+  text-align: right;
+  font-family: YekanBakh !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

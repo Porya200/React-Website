@@ -1,0 +1,41 @@
+@font-face {
+  font-family: YekanBakh;
+  src: url("./Yekan\ Bakh\ EN\ 03\ Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+  
+@font-face {
+  font-family: YekanBakh;
+  src: url("./Yekan\ Bakh\ EN\ 04\ Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+  
+@font-face {
+  font-family: YekanBakh;
+  src: url("./Yekan\ Bakh\ EN\ 05\ Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: YekanBakh;
+  src: url("./Yekan\ Bakh\ EN\ 06\ Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: YekanBakh;
+  src: url("./Yekan\ Bakh\ EN\ 07\ Heavy.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: YekanBakh;
+  src: url("./Yekan\ Bakh\ EN\ 08\ Fat.woff") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}

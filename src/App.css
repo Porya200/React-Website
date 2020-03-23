@@ -1,0 +1,74 @@
+.App-header {
+  font-size: calc(10px + 2vmin);
+  margin-top: 60px;
+  color: white;
+}
+::selection {
+  background: #4dc7ed;
+  color:#fff;
+}
+.btn:focus ,  button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.flex h3 {
+  margin-right: 5px;
+}
+.App-header h2 {
+  margin: 0px !important;
+}
+.my-img {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.my-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: all .2s;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+}
+.my-img img:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  border-bottom: 2px solid #61DAFB;
+  font-weight: 600;
+}
+.route-wrapper {
+  position: relative;
+  height: calc(-60px + 100vh);
+  width: 100vw;
+  background-color: #282c34;
+}
+
+.route-wrapper > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 2rem 0rem;
+}
+
+.route-wrapper > div > div > * {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 100%;
+}
+label {
+  font-size: 17px;
+}
